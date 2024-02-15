@@ -26,7 +26,7 @@ body, html{
     align-items: center;
     gap:30px;
     margin:0 auto;
-    height: 500px;
+    height: 550px;
     width: 200px;
     border-radius: 10px;
     background-color: black;
@@ -80,4 +80,15 @@ button:hover{
 
 button:focus{
     outline: none;
+}
+
+.purple{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+.shinePurple{
+    box-shadow: 0 0 100px rgb(191, 20, 207);
 }
